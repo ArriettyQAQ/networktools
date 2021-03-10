@@ -13,3 +13,4 @@ payload:
   - DOMAIN-SUFFIX,plex.tv
   - DOMAIN,relay.firefox.com
   - DOMAIN-SUFFIX,2dland.cn
+  - DOMAIN-KEYWORD,2dland.cn
