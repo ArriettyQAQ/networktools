@@ -1,0 +1,4 @@
+[MITM]
+hostname=raw.githubusercontent.com
+[URL Rewrite]
+^https?:\/\/raw.githubusercontent.com https://raw.sevencdn.com 302
