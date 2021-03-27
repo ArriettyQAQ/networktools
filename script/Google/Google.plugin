@@ -1,0 +1,7 @@
+# Google 重定向至 .com 域名
+
+[MITM]
+hostname=*.google.com.cn,*.google.com.hk
+
+[URL Rewrite]
+^https?:\/\/(www.)?(g|google)\.(cn|com\.hk) https://www.google.com 302
