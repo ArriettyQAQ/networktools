@@ -9,4 +9,5 @@
 # IP-CIDR6: 0
 # TOTAL: 0
 payload:
-  - DOMAIN-SUFFIX,plex.tv
+#  - DOMAIN-SUFFIX,plex.tv
+  - DOMAIN-SUFFIX,iqiyi.com
