@@ -1,9 +1,11 @@
 # 两个插件订阅地址任选其一即可
 # https://raw.githubusercontent.com/ArriettyQAQ/networktools/main/script/GitHub/GitHub.plugin
+# https://raw.githubusercontents.com/ArriettyQAQ/networktools/main/script/GitHub/GitHub.plugin
 # https://raw.sevencdn.com/ArriettyQAQ/networktools/main/script/GitHub/GitHub.plugin
 
 [MITM]
 hostname=raw.githubusercontent.com
+
 [URL Rewrite]
-^https?:\/\/raw.githubusercontent.com https://raw.sevencdn.com 302
-# ^https?:\/\/raw.githubusercontent.com https://raw.githubusercontents.com 302
+^https?:\/\/raw.githubusercontent.com https://raw.githubusercontents.com 302
+# ^https?:\/\/raw.githubusercontent.com https://raw.sevencdn.com 302
